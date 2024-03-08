@@ -17,6 +17,10 @@
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
+	<properties>
+    <java.version>1.8</java.version>
+    <lombok.version>1.18.22</lombok.version> <!-- Update to the latest version -->
+</properties>
 
 	<dependencies>
 		<dependency>
@@ -36,6 +40,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>	
+			<version>${lombok.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
